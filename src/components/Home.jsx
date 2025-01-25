@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import img from "../assets/photo.png";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -22,9 +23,9 @@ const Home = () => {
             I'm a Full Stack Web Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 2 years of experience building websites and desgining software.
+            I have experience of building websites and desgining software.
             I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            React, Tailwind, Node JS and Mongoose.
           </p>
 
           <div className="portfolio-btn">
@@ -43,7 +44,7 @@ const Home = () => {
         </div>
         <div className="big-screen">
           <img
-            src={HeroImage}
+            src={img}
             alt="profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full"
           />

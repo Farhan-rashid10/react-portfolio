@@ -4,14 +4,14 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
+import flask from "../assets/flask.png";
+import sqlite from "../assets/sqlite.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import node from "../assets/node.png";
 import express from "../assets/express.png"
 import mongodb from "../assets/mongodb.png"
-import redux from "../assets/redux.png"
+import mysql from "../assets/mysql.png"
 const Experience = () => {
   const techs = [
     {
@@ -46,14 +46,14 @@ const Experience = () => {
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
+      src: flask,
+      title: "Flask",
       style: "shadow-white",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
+      src: sqlite,
+      title: "SQlite",
       style: "shadow-pink-400",
     },
     {
@@ -82,8 +82,8 @@ const Experience = () => {
     },
     {
       id: 12,
-      src: redux,
-      title: "Redux",
+      src: mysql,
+      title: "Mysql",
       style: "shadow-purple-500",
     },
   ];
