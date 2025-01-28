@@ -18,7 +18,7 @@ const Portfolio = () => {
       id: 2,
       src: webpostman,
       link: 'https://mediplusmedicalcare.vercel.app/',
-      repo: 'https://github.com/rahulkarda/Web-Postman'
+      repo: 'https://github.com/Farhan-rashid10/project-group'
     },
     {
       id: 3,
@@ -41,8 +41,8 @@ const Portfolio = () => {
     {
       id: 6,
       src: iptracker,
-      link: 'https://trackmyip.netlify.app/',
-      repo: 'https://github.com/rahulkarda/IP-Address-Tracker'
+      link: 'https://ip-adress-drab.vercel.app',
+      repo: 'https://github.com/Farhan-rashid10/ip-adress'
     },
   ];
 
